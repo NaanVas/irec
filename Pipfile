@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+inquirer = "*"
+matplotlib = "*"
+numba = "*"
+pandas = "*"
+pip-chill = "*"
+scikit-learn = "*"
+tqdm = "*"
+PyYAML = "*"
+tensorflow = "==2.4.1"
+seaborn = "*"
+tabulate = "*"
+numpy = "*"
+mlflow = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
